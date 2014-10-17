@@ -31,7 +31,7 @@ Disper Menu is currently translated into English, German and Polish.
 
 If you wish to see it in other language or have fixed any translation errors, send me a pull request with the `po` file.
 
-You can generate the `pot` file using (create_pot.sh)[scripts/create_pot.sh] script.
+You can generate the `pot` file using [create_pot.sh](scripts/create_pot.sh) script.
 
 I recommend using [poedit](http://poedit.net/) for translations.
 

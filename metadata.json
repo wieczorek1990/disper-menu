@@ -1,0 +1,11 @@
+{
+    "extension-id": "disper-menu",
+    "uuid": "disper-menu@wieczorek1990.gmail.com",
+    "settings-schema": "org.gnome.shell.extensions.disper-menu",
+    "gettext-domain": "disper-menu",
+    "name": "Disper Menu",
+    "description": "Adds disper menu to GNOME panel for easy display switching.",
+    "original-authors": [  "wieczorek1990@gmail.com" ],
+    "shell-version": [ "3.14" ],
+    "url": "https://github.com/wieczorek1990/disper-menu"
+}

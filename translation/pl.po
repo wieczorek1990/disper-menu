@@ -1,0 +1,72 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-10-15 14:41+0200\n"
+"PO-Revision-Date: 2014-10-15 14:43+0100\n"
+"Last-Translator: Łukasz Wieczorek <wieczorek1990@gmail.com>\n"
+"Language-Team: \n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.9\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+
+msgid "Clone display"
+msgstr "Klonuj ekran"
+
+msgid "Cycle between setups"
+msgstr "Krąż pomiędzy ustawieniami"
+
+msgid "Disper not found or other error"
+msgstr "Disper nie został znaleziony lub inny błąd"
+
+msgid "Display extend direction"
+msgstr "Kierunek rozszerzania ekranu"
+
+msgid "Extend display"
+msgstr "Rozszerz ekran"
+
+msgid "Messages fade out time"
+msgstr "Czas zanikania komunikatów o błędzie"
+
+msgid "Primary display"
+msgstr "Podstawowy ekran"
+
+msgid "Scaling mode"
+msgstr "Tryb skalowania"
+
+msgid "Secondary display"
+msgstr "Podrzędny ekran"
+
+msgid "Use below settings"
+msgstr "Użyj poniższych ustawień"
+
+msgid "aspect-scaled"
+msgstr "skalowany aspektem"
+
+msgid "bottom"
+msgstr "dół"
+
+msgid "centered"
+msgstr "wyśrodkowany"
+
+msgid "default"
+msgstr "domyślny"
+
+msgid "left"
+msgstr "lewo"
+
+msgid "native"
+msgstr "natywny"
+
+msgid "right"
+msgstr "prawo"
+
+msgid "scaled"
+msgstr "skalowany"
+
+msgid "top"
+msgstr "góra"

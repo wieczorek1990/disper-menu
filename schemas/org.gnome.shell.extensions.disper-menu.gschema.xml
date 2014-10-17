@@ -1,0 +1,37 @@
+<schemalist gettext-domain="disper-menu">
+  <enum id="org.gnome.shell.extensions.disper-menu.extend-direction">
+    <value value="0" nick="left"/>
+    <value value="1" nick="right"/>
+    <value value="2" nick="top"/>
+    <value value="3" nick="bottom"/>
+  </enum>
+  <enum id="org.gnome.shell.extensions.disper-menu.scaling-mode">
+    <value value="0" nick="default"/>
+    <value value="1" nick="native"/>
+    <value value="2" nick="scalled"/>
+    <value value="3" nick="centered"/>
+    <value value="4" nick="aspect-scaled"/>
+  </enum>
+  <schema id="org.gnome.shell.extensions.disper-menu" path="/org/gnome/shell/extensions/disper-menu/">
+    <key name="use-below-settings" type="b">
+      <default>true</default>
+      <summary>Whether to certain disper settings</summary>
+    </key>
+    <key name="extend-direction" enum="org.gnome.shell.extensions.disper-menu.extend-direction">
+      <default>'right'</default>
+      <summary>Extend direction</summary>
+    </key>
+    <key name="scaling-mode" enum="org.gnome.shell.extensions.disper-menu.scaling-mode">
+      <default>'default'</default>
+      <summary>Scaling mode</summary>
+    </key>
+    <key name="message-fade-out-time" type="i">
+      <default>4</default>
+      <summary>Error message fade out time</summary>
+    </key>
+    <key name="role" type="s">
+      <default>'disperMenu'</default>
+      <summary>Role for panel</summary>
+    </key>
+  </schema>
+</schemalist>

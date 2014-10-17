@@ -1,0 +1,71 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-10-15 14:41+0200\n"
+"PO-Revision-Date: 2014-10-15 14:42+0100\n"
+"Last-Translator: Łukasz Wieczorek <wieczorek1990@gmail.com>\n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.9\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Clone display"
+msgstr "Bildschirm klonen"
+
+msgid "Cycle between setups"
+msgstr "Rotiere zwischen Einstellungen"
+
+msgid "Disper not found or other error"
+msgstr "Disper nicht gefunden oder andere Fehler"
+
+msgid "Display extend direction"
+msgstr "Bildschirm Erweiterungs Richtung"
+
+msgid "Extend display"
+msgstr "Bildschirm erweitern"
+
+msgid "Messages fade out time"
+msgstr "Erklärungs Anzeige-Zeit"
+
+msgid "Primary display"
+msgstr "Primärer Bildschirm"
+
+msgid "Scaling mode"
+msgstr "Skalierungs Modus"
+
+msgid "Secondary display"
+msgstr "Sekundärer Bildschirm"
+
+msgid "Use below settings"
+msgstr "Benutze folgende Einstellungen"
+
+msgid "aspect-scaled"
+msgstr "Aspekt-skaliert"
+
+msgid "bottom"
+msgstr "unten"
+
+msgid "centered"
+msgstr "zentriert"
+
+msgid "default"
+msgstr "Voreinstellung"
+
+msgid "left"
+msgstr "links"
+
+msgid "native"
+msgstr "nativen"
+
+msgid "right"
+msgstr "rechts"
+
+msgid "scaled"
+msgstr "skaliert"
+
+msgid "top"
+msgstr "oben"

@@ -17,7 +17,13 @@ You need to install `disper` from your Linux distribution software repository or
 
 I recommend using [GNOME.org Extensions](https://extensions.gnome.org/extension/884/disper-menu/) for Disper Menu installation.
 
-If your browser doesn't support NPAPI (e.g. Google Chrome) and you don't want to use another web browser to download GNOME Shell extensions, you can clone this repository using `git` and use the [install.sh](scripts/install.sh) script.
+If your browser doesn't support NPAPI (e.g. Google Chrome) and you don't want to use another web browser to download GNOME Shell extensions, you can clone this repository using `git` and use the [install.sh](scripts/install.sh) script like this:
+
+```shell
+git clone https://github.com/wieczorek1990/disper-menu.git
+bash disper-menu/scripts/install.sh
+rm -rf disper-menu
+```
 
 ## Preferences
 You can setup preferences using `gnome-shell-extension-prefs` or `gnome-tweak-tool`.

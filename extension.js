@@ -8,14 +8,14 @@ const PopupMenu = imports.ui.popupMenu;
 const St = imports.gi.St;
 const Tweener = imports.ui.tweener;
 
-const _ = Gettext.gettext;
-
+let _;
 let settings, metadata;
 let disperMenu, errorMessage;
 
 function init(extension) {
     const Convenience = extension.imports.convenience;
     Convenience.initTranslations();
+    _ = Gettext.domain(extension.metadata['gettext-domain']).gettext;
     settings = Convenience.getSettings();
     metadata = {
         name: extension.metadata.name,

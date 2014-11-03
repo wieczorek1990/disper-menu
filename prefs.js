@@ -2,18 +2,19 @@ const Gettext = imports.gettext;
 const Gtk = imports.gi.Gtk;
 const Lang = imports.lang;
 
-const _ = Gettext.gettext;
 const SETTINGS_SCALING_MODE_KEY = 'scaling-mode';
 const SETTINGS_EXTEND_DIRECTION_KEY = 'extend-direction';
 const SETTINGS_MESSAGE_FADE_OUT_TIME_KEY = 'message-fade-out-time';
 const SETTINGS_USE_BELOW_SETTINGS = 'use-below-settings';
 
+let _;
 let settings;
 
 function init() {
     let extension = imports.misc.extensionUtils.getCurrentExtension();
     let convenience = extension.imports.convenience;
     convenience.initTranslations();
+    _ = Gettext.domain(extension.metadata['gettext-domain']).gettext;
     settings = convenience.getSettings();
 }
 

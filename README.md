@@ -44,5 +44,9 @@ I recommend using [poedit](http://poedit.net/) for translations.
 ## Authors
 Łukasz Wieczorek aka wieczorek1990
 
+## Translation contributors
+* German
+    * Christian Zemsauer aka cri
+
 ## License
 See the [GNU GPL v2.0 license](LICENSE).

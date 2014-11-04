@@ -1,0 +1,6 @@
+This file is intended for the reviewers.
+Versions bellow correspond to extensions.gnome.org extension version numbers.
+
+3: updated German translation
+2: fixed gettext misuse
+1: initial

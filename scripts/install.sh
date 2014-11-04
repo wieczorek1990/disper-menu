@@ -16,5 +16,17 @@ do
   mkdir -p "${dir}"
   msgfmt -o "${dir}/disper-menu.mo" "${po}"
 done
-rm -rf '.git' '.gitignore' '.idea' 'images'/*'.png' 'schemas'/*'.xml' 'scripts' 'translation' 'LICENSE' 'README.md'
+read -d '' sources << EOF
+.git
+.gitignore
+.idea
+images/*.png
+LICENSE
+README.md
+schemas/*.xml
+scripts
+translation
+VERSIONS
+EOF
+rm -rf ${sources}
 gnome-shell-extension-tool -e "${name}"

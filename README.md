@@ -47,6 +47,17 @@ Press Alt + F2 and type lg to show the Looking Glass console.
 
 Press Alt + F2 and type r to restart Gnome shell.
 
+## Publishing
+
+```
+cd disper-menu
+zip -j -r disper-menu.zip .
+```
+
+## Availability
+
+Please modify metadata.json `shell-version` attribute and check if it works for your Gnome shell. Then prepare a pull request. Thanks!
+
 ## Authors
 Łukasz Wieczorek aka wieczorek1990
 

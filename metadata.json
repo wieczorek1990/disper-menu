@@ -6,6 +6,6 @@
     "name": "Disper Menu",
     "description": "Adds disper menu to GNOME panel for easy display switching.",
     "original-authors": [  "wieczorek1990@gmail.com" ],
-    "shell-version": [ "3.14" ],
+    "shell-version": [ "3.14", "3.30" ],
     "url": "https://github.com/wieczorek1990/disper-menu"
 }

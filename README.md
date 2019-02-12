@@ -41,6 +41,12 @@ You can generate the `pot` file using [create_pot.sh](scripts/create_pot.sh) scr
 
 I recommend using [poedit](http://poedit.net/) for translations.
 
+## Debugging
+
+Press Alt + F2 and type lg to show the Looking Glass console.
+
+Press Alt + F2 and type r to restart Gnome shell.
+
 ## Authors
 Łukasz Wieczorek aka wieczorek1990
 

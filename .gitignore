@@ -1,5 +1,5 @@
 /*.zip
-/.idea
-/locale
+/.idea/
+/locale/
 /schemas/gschemas.compiled
 /translation/disper-menu.pot

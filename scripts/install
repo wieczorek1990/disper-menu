@@ -26,6 +26,7 @@ read -d '' sources << EOF
 .git
 .gitignore
 .idea
+*.zip
 images/*.png
 LICENSE
 README.md

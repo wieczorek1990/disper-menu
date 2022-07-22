@@ -52,7 +52,8 @@ Press Alt + F2 and type r to restart Gnome shell.
 ## Publishing
 
 ```
-sudo apt-get install gettext p7zip-full
+# sudo apt-get install gettext p7zip-full
+# sudo dnf install p7zip-plugins
 cd disper-menu/
 ./scripts/create_pot
 ./scripts/install
@@ -69,6 +70,8 @@ Please modify metadata.json `shell-version` attribute and check if it works for 
 ## Translation contributors
 * German
     * Christian Zemsauer aka cri
+* Dutch
+    * Vistaus
 
 ## License
 See the [GNU GPL v2.0 license](LICENSE).
